@@ -1,0 +1,44 @@
+New log file opened at Tue Jul 21 11:40:53 BST 2015 by 4888@mcommons-e6430
+Sending msg to client play-fork-run-9bf47acd-db6d-4b36-a21e-ea1e58634e6f: DetachedLogEvent(LogMessage(debug,sbt server socket logs are in: E:\Users\mcommons\Desktop\RealEstate\RealApp\.sbtserver\connections\master.log))
+Sending msg to client play-fork-run-9bf47acd-db6d-4b36-a21e-ea1e58634e6f: DetachedLogEvent(LogMessage(debug,sbt general server logs are in: E:\Users\mcommons\Desktop\RealEstate\RealApp\.sbtserver\master.log))
+Sending msg to client play-fork-run-9bf47acd-db6d-4b36-a21e-ea1e58634e6f: DetachedLogEvent(LogMessage(debug,sbt client logs are in: E:\Users\mcommons\Desktop\RealEstate\RealApp\.sbtserver\connections\play-fork-run-9bf47acd-db6d-4b36-a21e-ea1e58634e6f.log))
+Reading next message from client.
+Got request: DaemonRequest(true)
+Reading next message from client.
+Sending msg to client play-fork-run-9bf47acd-db6d-4b36-a21e-ea1e58634e6f: (3,ReceivedResponse())
+Got request: ListenToEvents()
+Reading next message from client.
+Got request: KeyLookupRequest(root/playForkConfig)
+Reading next message from client.
+Sending msg to client play-fork-run-9bf47acd-db6d-4b36-a21e-ea1e58634e6f: DetachedLogEvent(LogMessage(debug,> --initialize))
+Sending msg to client play-fork-run-9bf47acd-db6d-4b36-a21e-ea1e58634e6f: DetachedLogEvent(LogMessage(debug,> initialize))
+Sending msg to client play-fork-run-9bf47acd-db6d-4b36-a21e-ea1e58634e6f: DetachedLogEvent(LogMessage(debug,> onFailure load-failed))
+Sending msg to client play-fork-run-9bf47acd-db6d-4b36-a21e-ea1e58634e6f: DetachedLogEvent(LogMessage(debug,> boot))
+Sending msg to client play-fork-run-9bf47acd-db6d-4b36-a21e-ea1e58634e6f: DetachedLogEvent(LogMessage(debug,> reload))
+Sending msg to client play-fork-run-9bf47acd-db6d-4b36-a21e-ea1e58634e6f: DetachedLogEvent(LogMessage(debug,[Loading] Scanning directory E:\Users\mcommons\Desktop\RealEstate\RealApp\project))
+Sending msg to client play-fork-run-9bf47acd-db6d-4b36-a21e-ea1e58634e6f: (4,ReceivedResponse())
+Sending msg to client play-fork-run-9bf47acd-db6d-4b36-a21e-ea1e58634e6f: DetachedLogEvent(LogMessage(debug,[Loading] Found non-root projects ))
+Sending msg to client play-fork-run-9bf47acd-db6d-4b36-a21e-ea1e58634e6f: DetachedLogEvent(LogMessage(debug,[Loading] Done in E:\Users\mcommons\Desktop\RealEstate\RealApp\project, returning: ()))
+Sending msg to client play-fork-run-9bf47acd-db6d-4b36-a21e-ea1e58634e6f: DetachedLogEvent(LogMessage(debug,deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))))))
+Sending msg to client play-fork-run-9bf47acd-db6d-4b36-a21e-ea1e58634e6f: DetachedLogEvent(LogMessage(debug,  :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.JUnitXmlReportPlugin)))
+Sending msg to client play-fork-run-9bf47acd-db6d-4b36-a21e-ea1e58634e6f: DetachedLogEvent(LogMessage(debug,sorting: ns: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)))
+Sending msg to client play-fork-run-9bf47acd-db6d-4b36-a21e-ea1e58634e6f: DetachedLogEvent(LogMessage(debug,  :: sorting:: found: List(sbt.plugins.CorePlugin) not found List(sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)))
+Sending msg to client play-fork-run-9bf47acd-db6d-4b36-a21e-ea1e58634e6f: DetachedLogEvent(LogMessage(debug,  :: sorting:: found: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin) not found List(sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)))
+Sending msg to client play-fork-run-9bf47acd-db6d-4b36-a21e-ea1e58634e6f: DetachedLogEvent(LogMessage(debug,  :: sorting:: found: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin) not found List(sbt.plugins.JUnitXmlReportPlugin)))
+Sending msg to client play-fork-run-9bf47acd-db6d-4b36-a21e-ea1e58634e6f: DetachedLogEvent(LogMessage(debug,  :: sorting:: found: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin) not found List()))
+Sending msg to client play-fork-run-9bf47acd-db6d-4b36-a21e-ea1e58634e6f: DetachedLogEvent(LogMessage(debug,  :: sorted deduced result: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)))
+Sending msg to client play-fork-run-9bf47acd-db6d-4b36-a21e-ea1e58634e6f: DetachedLogEvent(LogMessage(debug,[Loading] Done in E:\Users\mcommons\Desktop\RealEstate\RealApp\project, returning: (realapp-build)))
+Sending msg to client play-fork-run-9bf47acd-db6d-4b36-a21e-ea1e58634e6f: DetachedLogEvent(LogTrace(IllegalArgumentException,URI has an authority component))
+Sending msg to client play-fork-run-9bf47acd-db6d-4b36-a21e-ea1e58634e6f: DetachedLogEvent(LogMessage(error,java.lang.IllegalArgumentException: URI has an authority component))
+Sending msg to client play-fork-run-9bf47acd-db6d-4b36-a21e-ea1e58634e6f: DetachedLogEvent(LogMessage(error,Use 'last' for the full log.))
+Sending msg to client play-fork-run-9bf47acd-db6d-4b36-a21e-ea1e58634e6f: DetachedLogEvent(LogMessage(debug,> load-failed))
+Sending msg to client play-fork-run-9bf47acd-db6d-4b36-a21e-ea1e58634e6f: DetachedLogEvent(LogMessage(error,Failed to load project.))
+Sending msg to client play-fork-run-9bf47acd-db6d-4b36-a21e-ea1e58634e6f: BuildFailedToLoad()
+Sending msg to client play-fork-run-9bf47acd-db6d-4b36-a21e-ea1e58634e6f: DetachedLogEvent(LogMessage(debug,> server-wait-for-reboot))
+Got request: UnlistenToEvents()
+Reading next message from client.
+Sending msg to client play-fork-run-9bf47acd-db6d-4b36-a21e-ea1e58634e6f: (6,ReceivedResponse())
+Client play-fork-run-9bf47acd-db6d-4b36-a21e-ea1e58634e6f EOF, shutting down.
+Stopping client.
+Dropping message (0,ReceivedResponse()) to dead client play-fork-run-9bf47acd-db6d-4b36-a21e-ea1e58634e6f
+Client play-fork-run-9bf47acd-db6d-4b36-a21e-ea1e58634e6f thread exiting.

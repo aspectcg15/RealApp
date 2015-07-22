@@ -1,0 +1,1 @@
+@(listing: Listing)<a target='/details?listing_id=@listing.getListing_id()'><img src='@if(listing.getPropertyphoto() != null){listing.getPropertyphoto().getPhoto_path()}' title='@listing.getPropertyAddress().getAddressField(), @listing.getPropertyAddress().getCity()'></img></a>
